@@ -1,9 +1,16 @@
 @media (max-width: 740px) {
-    .avatar {
-        display: none;
+    .introduction img {
+        height: 220px;
+        margin: auto;
     }
-    .info p {
+    .info b {
         padding-left: 20px;
+    }
+    .introduction {
+        height: 500px;
+    }
+    .info {
+        margin: auto;
     }
 }
 
