@@ -1,0 +1,10 @@
+@media (max-width: 740px) {
+    .avatar {
+        display: none;
+    }
+    .info p {
+        padding-left: 20px;
+    }
+}
+
+;
