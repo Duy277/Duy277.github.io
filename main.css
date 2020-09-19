@@ -48,18 +48,21 @@ body {
 
 b:hover {
     color: firebrick;
-    transition: right linear 0.1s;
 }
 
 p,
 li {
+    position: relative;
     font-size: 14pt;
     margin: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: right linear 0.1s;
+    right: 0;
 }
 
 li:hover {
     color: darkorange;
+    right: -3px;
 }
 
 b {
